@@ -24,6 +24,6 @@ Contiene pares de oraciones: frase original con “tú” y su corrección imper
 
 
 ### **Ejemplo:**
-Original: “Tú debes seguir un estilo formal y preciso."
-Corrección: "Se debe seguir un estilo formal y preciso."
+Original: “Tú debes seguir un estilo formal y preciso."  
+Corrección: "Se debe seguir un estilo formal y preciso."  
 Feedback generado: "La frase original utiliza el pronombre "tú" (debes) en un contexto formal, lo que resulta inapropiado. En textos académicos, es recomendable utilizar construcciones impersonales para mantener la objetividad y la distancia necesarias para un estilo formal. En lugar de "tú", se prefiere "se" para el pronombre personal, ya que este es más adecuado para referirse a un sujeto abstracto o impersonal. Además, es fundamental ajustar el verbo en tercera persona singular para mantener la concordancia verbal y evitar errores de número."
