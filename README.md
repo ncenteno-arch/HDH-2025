@@ -1,0 +1,26 @@
+# **Corrección del “tú” impersonal con Mistral-7B-Instruct**
+
+Este proyecto usa Mistral-7B-Instruct con bitsandbytes (cuantización 4-bit) para:
+- Corregir enunciados escritos en segunda persona (“tú”) en contextos generales, transformándolos en formas impersonales con “se”.
+- Generar feedback que explica el tipo de error y su ajuste más adecuado.
+
+### **Requisitos:**
+- Python 3, torch, transformers, bitsandbytes, pandas, nltk, openpyxl.
+- Autenticación en Hugging Face y acceso al modelo 'mistralai/Mistral-7B-Instruct-v0.3'.
+
+### **Dataset:**
+El dataset utilizado se ha subido al repositorio e-CienciaDatos:
+🔗 https://edatos.consorciomadrono.es/dataset.xhtml?persistentId=doi:10.21950/VVAJM1
+Contiene pares de oraciones: frase original con “tú” y su corrección impersonal con “se”.
+
+### **Flujo básico:**
+1. Carga y limpieza del dataset.
+2. Generación de correcciones con Mistral-7B-Instruct.
+3. Evaluación de calidad con GLEU (Google BLEU): Métrica usada en traducción y reformulación automática. Mide coincidencia de palabras entre salida y referencia (1 = perfecta, 0 = baja).
+4. Generación de feedback explicativo con Mistral-7B-Instruct.
+
+### **Ejemplo:**
+Original: Si tú redactas con claridad, el lector entiende mejor el contenido.
+Esperada: Si se redacta con claridad, el lector entiende mejor el contenido.
+Generada: Error: La frase "Si tú redactas con claridad" es incorrecta porque el sujeto de la oración es "tú", lo que hace que la frase sea un poco informal y personal.
+Corrección: La frase correcta es "Si se redacta con claridad". En contextos formales, es recomendable utilizar construcciones impersonales con "se" y el verbo en tercera persona singular, como en "Se entiende mejor el contenido". Esto ayuda a mantener la objetividad y la impersonalidad en el texto.
