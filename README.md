@@ -29,4 +29,4 @@ Corrección: *"Se debe seguir un estilo formal y preciso."*
 Feedback generado: *"La frase original utiliza el pronombre "tú" (debes) en un contexto formal, lo que resulta inapropiado. En textos académicos, es recomendable utilizar construcciones impersonales para mantener la objetividad y la distancia necesarias para un estilo formal. En lugar de "tú", se prefiere "se" para el pronombre personal, ya que este es más adecuado para referirse a un sujeto abstracto o impersonal. Además, es fundamental ajustar el verbo en tercera persona singular para mantener la concordancia verbal y evitar errores de número."*
 
 ### **Acknowledgements:**
-Financiado por la Comunidad de Madrid a través del convenio-subvención para el fomento y la promoción de la investigación y la transferencia de tecnología en la Universidad Carlos III de Madrid (PALABRIA-CM-UC3M)
+Financiado por la Comunidad de Madrid a través del convenio-subvención para el fomento y la promoción de la investigación y la transferencia de tecnología en la Universidad Carlos III de Madrid (PALABRIA-CM-UC3M).
