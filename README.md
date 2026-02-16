@@ -18,7 +18,7 @@ Contiene pares de oraciones: frase original con “tú” y su corrección imper
 
 ### **Flujo básico:**
 1. Carga y limpieza del dataset.
-2. Generación de correcciones con Mistral-7B-Instruct.
+2. Generación de correcciones con 'Mistral-7B-Instruct-v0.3'.
 3. Evaluación de calidad con GLEU (Google BLEU): métrica usada principalmente para evaluar modelos de traducción automática. Es especialmente útil en tareas donde es importante capturar todo el contenido de la referencia. Compara n-gramas entre la frase generada y la referencia (1 = coincidencia perfecta, 0 = sin coincidencia).
 4. Generación de feedback explicativo con Mistral-7B-Instruct.
 
